@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: fira code;
+}
+.gallery{
+    width: 1000px;
+    display: flex;
+}
+.gallery .inside-gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.gallery .inside-gallery img{
+    width: 100%;
+
+}

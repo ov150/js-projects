@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: fira code;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondy-color:#212121;
+}
+.dark{
+    --primary-color: #212121;
+    --secondy-color:#edf2fc;
+}
+body{
+    background: var(--primary-color);
+}
+.container h1{
+    color : var(--secondy-color);
+
+}
+.container p{
+    color : var(--secondy-color);
+}

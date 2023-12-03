@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggle password</title>
+</head>
+<body>
+    <div class="inputBox">
+        <input id="passWord" type="password" style="outline: none;" />
+        <button id="show" onclick="showpass()">show</button>
+    </div>
+    <script>
+        let showPass = document.getElementById("show");
+        let showPassword = document.getElementById("password");
+
+        function showpass(){
+            if(showPassword.type == "password"){
+                showPassword.type = "text";
+            }
+            else{
+                showPassword.type = "password";
+            }
+        }
+    </script>
+</body>
+</html>
